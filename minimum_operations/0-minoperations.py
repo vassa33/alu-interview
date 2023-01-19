@@ -11,4 +11,4 @@ import math
 def minOperations(n):
     if n <= 0:
         return 0
-    return int(math.log2(n)) + 1
+    return math.ceil(math.log(n, 2)) + 1
