@@ -1,10 +1,11 @@
 #!/usr/bin/python3
-import math
 """
 The function minOperations calculates the fewest number of operations
 needed to result in exactly n H characters in the file.
 """
 
+
+import math
 
 def minOperations(n):
     if n <= 0:
