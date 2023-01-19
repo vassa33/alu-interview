@@ -7,6 +7,8 @@ def minOperations(n):
     if n <= 0:
         return 0
     else:
-        binary_n = bin(n)[2:]
-        trailing_zeroes = len(binary_n) - len(binary_n.rstrip('0'))
-        return len(binary_n) - trailing_zeroes
+        copy_all = 0
+        while n % 2 == 0:
+            n = n // 2
+            copy_all += 1
+        return copy_all + n
