@@ -4,6 +4,6 @@ The function can perform two operations: Copy All and Paste. It uses a greedy al
 The number of times it can be divided by 2 represents the number of "Copy All" operations needed, and the final number represents the number of "Paste" operations needed.
 
 The module contains the following function:
-    - min_operations : function that calculates the fewest number of operations needed to result in exactly n H characters in the file.
+    - minOperations : function that calculates the fewest number of operations needed to result in exactly n H characters in the file.
 
 """
