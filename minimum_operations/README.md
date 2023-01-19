@@ -1,7 +1,8 @@
 # minOperations
 
-A python function that calculates the fewest number of operations needed to result in exactly n H characters in the file. The function can perform two operations: Copy All and Paste.
+A python module that contains a function that calculates the fewest number of operations needed to result in exactly n H characters in the file. The function can perform two operations: Copy All and Paste.
 
-## Example
->>> minOperations(6) gives 2 as the answer
-
+## Usage
+```python
+from minOperations import min_operations
+min_operations(n)
