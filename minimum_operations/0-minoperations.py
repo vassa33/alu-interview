@@ -12,4 +12,4 @@ def minOperations(n):
     while n % 2 == 0:
         n = n // 2
         copy_all += 1
-    return copy_all + n
+    return copy_all + (1 if n > 1 else 0)
