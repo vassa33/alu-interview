@@ -1,15 +1,9 @@
 #!/usr/bin/python3
+"""
+The function min_operations calculates the fewest number of operations needed to result in exactly n H characters in the file.
+"""
 
-def min_operations(n):
-    
-    """
-    Calculates the fewest number of operations needed to result in exactly n H characters in the file.
-    The function can perform two operations: Copy All and Paste.
-    The function uses an algorithm that repeatedly divides the target number n by 2 until it can no longer be divided.
-    The number of times it can be divided by 2 represents the number of "Copy All" operations needed,
-    and the final number represents the number of "Paste" operations needed.
-    """
-    
+def min_operations(n):  
     if n <= 0:
         return 0
     else:
