@@ -1,13 +1,18 @@
 #!/usr/bin/python3
 """
-The function minOperations calculates the fewest number of operations
-needed to result in exactly n H characters in the file.
+Minimum Operations
 """
 
 
 def minOperations(n):
+    """
+    The function minOperations calculates the fewest number of operations
+    needed to result in exactly n H characters in the file.
+    """
+    
     if n <= 1:
         return 0
+        
     operations = 0
     i = 2
     while i <= n:
