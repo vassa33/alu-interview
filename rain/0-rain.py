@@ -11,9 +11,11 @@ def rain(walls):
     with unit width 1, as if viewing the cross-section of a relief map.
 
     Returns:
-    An integer indicating the total amount of rainwater retained between the walls.
+    An integer indicating the total amount of rainwater 
+    retained between the walls.
 
-    Assumes that the ends of the list (before index 0 and after index walls[-1])
+    Assumes that the ends of the list (before index 0 
+    and after index walls[-1])
     are not walls, meaning they will not retain water.
     If the list is empty, returns 0.
     """
