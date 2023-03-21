@@ -9,13 +9,13 @@ Returns an empty list if n <= 0.
 
 
 def pascal_triangle(n):
-    """    
+    """
     Arguments:
     n -- an integer representing the number
     of rows to generate
-    
+
     Returns:
-    A list of lists of integers representing 
+    A list of lists of integers representing
     Pascal's triangle with n rows.
     """
     if n <= 0:
